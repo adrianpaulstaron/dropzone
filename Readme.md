@@ -21,4 +21,5 @@ Dans chaque répertoire:
 `npm install -g foreman`  
   
 Il est également nécessaire d'être sous Unix pour faire fonctionner les niveaux 4 et 5 (donc sous macOS ou Linux par exemple).  
+  
 Le répertoire observé au niveau 5 s'appelle FHIR et se trouve à la racine du projet.
