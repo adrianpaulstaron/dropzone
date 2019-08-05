@@ -1,10 +1,11 @@
-### Level 5
+### Level 4
 
-Let's connect the final pieces to finish the app: watch a directory
+We now have some reporting and we are ready to start the next feature. 
+The final goal is to "watch" a directory and upload every file in this directory.
+Normal webpages are not allowed to "watch" directory, so we have to build a desktop app to access the system, with Electron (https://electronjs.org/) or node-webkit (https://nwjs.io/) or ...?
 
-* The desktop application should watch this directory when started: `~/FHIR`
-* When a new file arrives in the directory, upload it as a Fhir `Binary`. It should have the same visual effect as if the user dropped the file in the application directly. It should also display the same reporting information (the total of `Binary`) as if the user dropped the file.
-* Only pdf files are supported and they should not have a size more than 2mo.
+* Setup the framework
+* Integrate your app with this framework
+* Do not make the `watch` function yet, this is the next level
 
-### Bonus
-* Surprise us! Add a feature that you think would work well here.
+When you are done -> [Next Level](https://github.com/honestica/frontend-jobs/tree/master/lvl5)

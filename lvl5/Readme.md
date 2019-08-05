@@ -1,16 +1,10 @@
-# Lifen Frontend Challenge
+### Level 5
 
-Challenge réalisé dans le cadre d'une candidature pour le [poste de Junior Software Engineer](https://www.welcometothejungle.co/fr/me/applications#c/lifen-3f80914cc3bafb18d5c7ef45) chez Lifen.
+Let's connect the final pieces to finish the app: watch a directory
 
-## Notes sur les technologies utilisées
-J'ai utilisé le framework React avec Reactstrap,  
-le composant open-source [react-dropzone](https://github.com/react-dropzone/react-dropzone),  
-Electron à partir du niveau 4,  
-[chokidar](https://github.com/paulmillr/chokidar) pour l'observation du répertoire d'upload au niveau 5.
+* The desktop application should watch this directory when started: `~/FHIR`
+* When a new file arrives in the directory, upload it as a Fhir `Binary`. It should have the same visual effect as if the user dropped the file in the application directly. It should also display the same reporting information (the total of `Binary`) as if the user dropped the file.
+* Only pdf files are supported and they should not have a size more than 2mo.
 
-## Lancement
-`npm install -g foreman`  
-`npm install`  
-`npm start`
-
-Note: Il est nécessaire d'être sous Unix pour faire fonctionner ce niveau (donc sous macOS ou Linux par exemple).
+### Bonus
+* Surprise us! Add a feature that you think would work well here.
