@@ -16,7 +16,7 @@ Dans chaque répertoire:
 `npm install`  
 `npm start`  
   
-## Partie Electron (partie Electron, niveaux 4 et 5)
+## Lancement (partie Electron, niveaux 4 et 5)
 À partir du niveau 4, il est nécessaire d'avoir installé le package [foreman](https://www.theforeman.org/) pour lancer l'application.  
 `npm install -g foreman`  
     
