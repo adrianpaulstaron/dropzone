@@ -11,12 +11,12 @@ le composant open-source [react-dropzone](https://github.com/react-dropzone/reac
 Electron à partir du niveau 4,    
 [chokidar](https://github.com/paulmillr/chokidar) pour l'observation du répertoire d'upload au niveau 5.
 
-## Lancement (partie React, niveaux 1 à 3)
+## Lancement partie React (niveaux 1 à 3)
 Dans chaque répertoire:  
 `npm install`  
 `npm start`  
   
-## Lancement (partie Electron, niveaux 4 et 5)
+## Lancement partie Electron (niveaux 4 et 5)
 À partir du niveau 4, il est nécessaire d'avoir installé le package [foreman](https://www.theforeman.org/) pour lancer l'application.  
 `npm install -g foreman`  
     
