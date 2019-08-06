@@ -1,6 +1,6 @@
-# Lifen Frontend Challenge (React / Electron)
+# Frontend Challenge (React / Electron)
 
-Challenge réalisé dans le cadre d'une candidature pour le [poste de Junior Software Engineer](https://www.welcometothejungle.co/fr/me/applications#c/lifen-3f80914cc3bafb18d5c7ef45) chez Lifen.  
+Challenge réalisé dans le cadre d'une candidature pour un poste de [Junior Software Engineer](https://github.com/honestica/frontend-jobs).  
 Les instructions se trouvent en readme dans chaque répertoire.  
   
 Ce projet a été l'occasion pour moi de découvrir Electron, que je n'avais jamais utilisé auparavant.
